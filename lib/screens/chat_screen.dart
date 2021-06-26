@@ -143,9 +143,6 @@ class _ChatScreenState extends State<ChatScreen> {
                               'text': text,
                               'sender': _loggedInUser.email,
                             });
-                            setState(() {
-                              text = '';
-                            });
                           } catch (e) {
                             print(e);
                           }
